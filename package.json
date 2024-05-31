@@ -9,8 +9,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@klinecharts/pro": "^0.1.1",
+    "echarts": "^5.5.0",
+    "klinecharts": "^9.8.9",
+    "lightweight-charts": "^4.1.4",
     "plotly.js-dist": "^2.32.0",
     "vue": "^3.4.21",
+    "vue-echarts": "^6.7.2",
     "vue-router": "4"
   },
   "devDependencies": {
