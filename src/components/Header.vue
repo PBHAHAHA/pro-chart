@@ -1,9 +1,9 @@
 <template>
-  <div class="w-full h-12 bg-white shadow-sm">
-    <div class="h-full flex items-center px-10">
-      <router-link to="/home"><div class="p-2 bg-orange-100 mr-5">图1</div></router-link> 
-      <router-link to="/chart"><div class="p-2 bg-orange-100">图2</div></router-link>
-      <router-link to="/chart2"><div class="p-2 bg-orange-100">图3</div></router-link>
+  <div class="w-full h-16 bg-[#100C2A] shadow-sm">
+    <div class="h-full flex items-center px-10 justify-center">
+      <router-link to="/home"><div class="rounded-lg py-2 px-4 bg-white mr-5 text-black">图表一</div></router-link> 
+      <!-- <router-link to="/chart"><div class="rounded-lg p-2 bg-orange-100">图表二</div></router-link> -->
+      <router-link to="/chart"><div class="rounded-lg py-2 px-4 bg-white text-black">图表二</div></router-link>
     </div>
   </div>
 </template>

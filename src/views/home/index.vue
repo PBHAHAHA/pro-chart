@@ -1,6 +1,6 @@
 <template>
-  <div class="px-5">
-    <div ref="TEREF" class=""></div>
+  <div class="h-full px-5 pt-4 bg-[#100C2A]">
+    <div ref="TEREF" class="h-[calc(100%-4rem)]"></div>
   </div>
   <!-- <div class="hoverinfo absolute top-2 right-2 border" ref="hoverinfoRef"></div> -->
 </template>
