@@ -1,6 +1,18 @@
 <template>
   <!-- <div class="bg-black h-full w-full"> -->
-  <div id="chart" class="w-full h-[calc(100%-4rem)] p-5" />
+  <div class="h-12 handle-box">
+    <div class="flex times">
+      <div class="item">秒</div>
+      <div class="item">日</div>
+      <div class="item">周</div>
+    </div>
+  </div>
+  <div class="w-[calc(100%-2rem)] h-[calc(100%-4rem)] flex">
+    <div class="w-14 h-full bg-white mr-3">
+      123    
+    </div>
+    <div id="chart" class="h-full w-full" />
+  </div>
   <!-- </div> -->
 </template>
 <script setup>
@@ -68,7 +80,7 @@ onMounted(() => {
     // },
     candle: {
       tooltip: {
-        // showType: 'rect',
+        showType: 'rect',
         // showRule: "rect",
         // custom: (data) => {
         //   const { prev, current } = data;
@@ -95,3 +107,19 @@ onUnmounted(() => {
   dispose("chart");
 });
 </script>
+<style scoped>
+.handle-box {
+  border-bottom: 1px solid #000;
+  padding-left: 50px
+}
+.times {
+  @apply h-full;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+.times .item {
+  width: 50px;
+  @apply h-full bg-slate-400 text-center leading-[3rem] text-white mr-1 cursor-pointer;
+}
+</style>

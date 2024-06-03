@@ -10,6 +10,6 @@ import Header from './components/Header.vue';
 </script>
 <style scoped>
 .content {
-  height: calc(100% - 48px);
+  height: calc(100% - 68px);
 }
 </style>
